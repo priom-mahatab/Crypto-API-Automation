@@ -62,7 +62,7 @@ def api_runner():
     if not os.path.isfile(r'Enter directory here\File name.csv'):
         df.to_csv(r'Enter directory here\File name.csv', header = 'column_names')
     else:
-        df.to_csv(r'C:\Users\BooK\Desktop\APIs\API.csv', mode = 'a', header = False)
+        df.to_csv(r'Enter directory here\File name.csv', mode = 'a', header = False)
 
 import os
 from time import time
